@@ -1,0 +1,251 @@
+@media (max-width: 500px) {
+    
+    
+    
+    .vagas{
+        flex-direction:row;
+        padding: 20px 20px;
+        height: 80px;
+        align-items: start;
+    }
+    .banner-text-colorido{
+        width: 70px;
+        font-size: 15px;
+    }
+    .banner-text{
+        font-size: 15px;
+    }
+    .container-banner-text .banner-text{
+        display: none;
+    }
+    .logo-photoshop, .logo-figma{
+        display: none;
+    }
+
+
+
+    .home.padding{
+        padding: 90px 100px 150px 100px;
+    }
+    
+    .roller{
+        border-radius: 100vw;
+        width: 120px;
+        height: 120px;
+        
+        top: -60px;
+        right: -10px;
+        
+    }
+    .urgente{
+        font-size: 13px;
+        font-weight: 100;
+    }
+    .giratorio{
+        width: 80px;
+        height: 80px;
+    }
+    .roller{
+        width: 100px;
+        height: 100px;
+    }
+    .titulo{
+        width: 350px;
+        font-weight: 100;
+        font-size: 35px;
+    }
+    .container-home h2{
+        width: 350px;
+        font-size: 13px;
+        color: var(--acinzentado-texto);
+        line-height: 20px;
+    }
+    .container-home{
+        padding: 40px 0px;
+    }
+    .destaque-titulo{
+        font-style: bold;
+    }
+    .bolha1{
+        position: absolute;
+        top: -600px;
+        z-index: -1;
+        opacity: 1;
+        width: 700px;
+        left: -320px
+    }
+    .bolha2{
+        position: absolute;
+        top: 1450px;
+        right: 0px;
+        z-index: -1;
+        opacity: .7;
+        transform: rotate(180deg);
+        width: 900px;
+    }
+
+
+
+
+
+    .ordem{
+        flex-direction: column;
+    }
+    .padding{
+        padding: 20px;
+    }
+
+    .txt4{
+        position: absolute;
+        width: 580px;
+        left: -200px;
+        top: 600px;
+        z-index: -1;
+        opacity: .5;
+    }
+
+    .margin-ajust1{
+        margin-right: 30px;
+    }
+    .margin-ajust2{
+        margin-right: 10px;
+    }
+    .break div {
+        gap: 1rem;
+    }
+    .space{
+        gap: 3.5rem;
+        align-items: center;
+    }
+    #textProcesso{
+        text-align: center;
+    }
+    .bene4{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding: 120px 0px 50px 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .bene4 h2{
+        color: var(--azul-medio);
+        font-family: space;
+        font-size: 35px;
+        max-width: 350px;
+        line-height: 45px;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    .vantagem{
+        width: 360px;
+    }
+    .container-dor{
+        width: 900px;
+        margin-top: 60px;
+        height: fit-content;
+        padding: 30px 10px 50px 10px;
+    }
+    .circulo{
+        display: none;
+    }
+    .sub-titulo{
+        font-size: 33px;
+    }
+    .fonte{
+        color: rgba(255, 255, 255, 0.26);
+        font-family: space;
+        font-weight: 100;
+        font-size: 13px;
+        text-align: center;
+        max-width: 200px;
+    }
+    .padding-ajuste{
+        padding-bottom: 150px;
+    }
+    .card-promo{
+        gap: 2.5rem;
+        padding: 78px 28px 48px 28px;
+        min-width: 300px;
+    }
+    .banner-desconto, .banner-desconto2{
+        display: none;
+    }
+    .por-green{
+        color: #13c08c;
+        font-weight: 500;
+        font-size: 1.8em;
+    }
+    .cupom{
+        font-weight: 500;
+        width: 250px;
+    }
+    .clientes50{
+        position: absolute;
+        width: 270px;
+        top: 540px
+    }
+    .container-faq{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .botao-whats{
+        width: fit-content;
+        padding: 20px 30px;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .text-whats{
+        max-width: 200px;
+    }
+    .flex-left{
+        padding-top: 60px;
+    }
+    .sub-flex-left {
+        font-size: 35px;
+        text-align: center;
+    }
+    .ajustef1 {
+        text-align: center;
+    }
+    .flex-left a{
+        display: flex;
+        justify-content: center;
+    }
+    .botao-whats svg{
+        width: 60px;
+    }
+   
+    .faq-faq {
+        border-bottom: 1px solid;
+        border-image: linear-gradient(90deg, var(--azul), transparent) 1;
+        width: 100%;
+        max-height: 120px;
+        padding: 35px 10px 40px 10px;
+    }
+    .sub-titulo-faq {
+        font-size: 20px;
+    }
+    .faq-faq.faq-ativado {
+        max-height: 300px;
+    }
+    .sub-whats-color{
+        color: white;
+        font-family: rad;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+    .depoimento{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .paddingDep{
+        padding: 0 20px
+    }
+    .depoimentos{
+        margin-bottom: 110px;
+    }
+
+}
